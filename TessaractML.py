@@ -60,7 +60,7 @@ def extract_specific_info(text):
 
 def process_image(input_image_path, output_folder):
     try:
-        # Load the image
+        # Load the image for pre-processing
         img = cv2.imread(input_image_path)
 
         if img is None:
